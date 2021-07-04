@@ -9,7 +9,7 @@ h1{
 .orange{
     color: orange;
 }
-section{
+.flex-container{
     display: flex;
     margin-bottom: 100px;
 }
@@ -40,4 +40,42 @@ p{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.test{
+    /* border: 2px solid orange; */
+    margin: 18px;
+    
+    height: 399px;
+    width: 680px;
+    margin: auto;
+    padding-bottom: 25px;
+    transition: .3s ease box-shadow;
+    
+    
+    
+
+}
+.test:hover{
+    
+    box-shadow: 10px 10px 40px gray ;
+}
+.experience{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+#one{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+#two{
+    border-left: 7px solid;
+    border-image: linear-gradient(orange, rgb(255, 96, 123));
+    border-image-slice: 1;
+
+}
+
+footer p{
+    text-align: center;
 }
